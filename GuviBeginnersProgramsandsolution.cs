@@ -1,20 +1,24 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace ConsoleApplication3
+namespace Guvi_Beginners
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int firstValue = Convert.ToInt32(Console.ReadLine().Trim());
-            int secondValue = Convert.ToInt32(Console.ReadLine().Trim());
+            Console.WriteLine("Enter a number: ");
+            int userInput = Convert.ToInt32(Console.ReadLine().Trim());
 
-            Console.WriteLine("{0}", firstValue + secondValue);
+            if (userInput != 0)
+            {
+                if (userInput > 0)
+                    Console.WriteLine("the given number is positive.");
+                else
+                    Console.WriteLine("the given number is negative.");
+            }
+            else
+                Console.WriteLine("the given number is zero");
             Console.ReadKey();
-
         }
     }
 }
