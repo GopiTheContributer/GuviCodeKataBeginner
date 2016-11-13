@@ -1,6 +1,4 @@
 using System;
-using System.Text;
-using System.Text.RegularExpressions;
 
 namespace Guvi_Beginners
 {
@@ -9,22 +7,16 @@ namespace Guvi_Beginners
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a character: ");
-            string userInput = Console.ReadLine().Trim().ToLower();
+            int firstInt = Convert.ToInt32(Console.ReadLine().Trim());
+            int secondInt = Convert.ToInt32(Console.ReadLine().Trim());
+            int thirdInt = Convert.ToInt32(Console.ReadLine().Trim());
 
-            if (userInput != "")
-            {
-                string _myStrPattern = "[a-zA-Z]";
-                Regex _regex = new Regex(_myStrPattern);
-                Match m = _regex.Match(userInput);
-
-                if (m.Success)
-                    Console.WriteLine("Entered is an alphabet. ");
-                else
-                    Console.WriteLine("entered value is not an alphabet.");
-            }
+            if (firstInt > secondInt && firstInt > thirdInt)
+                Console.WriteLine("first value is the largest than other.");
+            else if (secondInt > firstInt && secondInt > thirdInt)
+                Console.WriteLine("second value is largest than other.");
             else
-                Console.WriteLine("Must have a value.");
-
+                Console.WriteLine("third value is largest than other.");
 
             Console.ReadKey();
         }
