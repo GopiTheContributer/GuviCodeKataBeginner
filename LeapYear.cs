@@ -35,6 +35,12 @@ namespace Guvi_Beginners
                     }
                 }
             }
+            else 
+            {
+                        Console.WriteLine("must have a value.");
+                        Console.ReadKey();
+                        return;
+            }
         }
     }
 }
