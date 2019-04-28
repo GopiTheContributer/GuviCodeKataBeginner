@@ -10,5 +10,4 @@ class CheckNumber {
 		else if(inDatra == 0){
 		    System.out.println("Zero");
 		}
-		else{ System.out.println("Negative");
-		}}}
+		else{ System.out.println("Negative");}}}
