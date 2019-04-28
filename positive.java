@@ -13,6 +13,4 @@ class CheckNumber {
 		}
 		else{
 		    System.out.println("Negative");
-		}
-	}
-}
+		}}}
