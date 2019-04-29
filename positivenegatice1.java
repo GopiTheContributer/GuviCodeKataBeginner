@@ -6,7 +6,6 @@ class CheckNumber {
 		int inDatra = sc.nextInt();
 		if(inDatra > 0){
 		    System.out.println("Positive");
-		}	else if(inDatra == 0){
-		    System.out.println("Zero");
+		}	else if(inDatra == 0){ System.out.println("Zero");
 		}
 		else{ System.out.println("Negative");}}}
