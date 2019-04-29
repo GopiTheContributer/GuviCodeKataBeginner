@@ -8,8 +8,7 @@ public class Test
 		if(!string.IsNullOrEmpty(userInput)){
 			char[] temp = userInput.ToCharArray();
 			Array.Reverse(temp);
-			foreach(char item in temp){
-				output += item;
+			foreach(char item in temp){output += item;
 			}Console.WriteLine("{0}",output);
 		}
 		else
