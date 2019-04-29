@@ -12,8 +12,6 @@ public class Test
 			}Console.WriteLine("{0}",output);
 		}
 		else
-		{
 			Console.WriteLine("Not a valid input");
-		}
 	}
 }
