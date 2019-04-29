@@ -1,5 +1,4 @@
 using System;
-
 public class Test
 {
 	public static void Main()
@@ -12,12 +11,10 @@ public class Test
 			foreach(char item in temp){
 				output += item;
 			}Console.WriteLine("{0}",output);
-			Console.ReadLine();
 		}
 		else
 		{
 			Console.WriteLine("Not a valid input");
-			Console.ReadKey();
 		}
 	}
 }
