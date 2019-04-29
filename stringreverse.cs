@@ -11,8 +11,7 @@ public class Test
 			Array.Reverse(temp);
 			foreach(char item in temp){
 				output += item;
-			}
-			Console.WriteLine("{0}",output);
+			}Console.WriteLine("{0}",output);
 			Console.ReadLine();
 		}
 		else
