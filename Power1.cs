@@ -1,6 +1,6 @@
 using System;
 
-namespace Guvi_Beginners
+namespace guvibegin
 {
     class Program
     {
