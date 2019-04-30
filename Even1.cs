@@ -4,7 +4,7 @@ namespace Guvibeginprogram
 {
     class Program
     {
-        static void Main(string[] ar)
+        static void Main()
         {
             Console.WriteLine("Enter no: ");
             int userInput = Convert.ToInt32(Console.ReadLine().Trim());
