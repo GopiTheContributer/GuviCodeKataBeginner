@@ -6,7 +6,6 @@ namespace Guvibeginprogram
     {
         static void Main()
         {
-            Console.WriteLine("");
             int userInput = Convert.ToInt32(Console.ReadLine().Trim());
 
             if (userInput > 0)
