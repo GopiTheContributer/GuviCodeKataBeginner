@@ -2,7 +2,7 @@ using System;
 
 namespace Guvibeginprogram
 {
-    class Program
+    class Programasdf
     {
         static void Main()
         {
