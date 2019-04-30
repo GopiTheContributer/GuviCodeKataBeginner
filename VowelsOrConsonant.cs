@@ -6,9 +6,7 @@ namespace Guvi_Beginners
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number: ");
             string _input = Console.ReadLine().Trim().ToLower();
-
             if (_input != "")
             {
                 char userInput = Convert.ToChar(_input);
