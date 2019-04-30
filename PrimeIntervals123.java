@@ -3,7 +3,6 @@ class PrimeIntervals {
     public static void main(String[] args) {
 
         int low = 1, high = 10;
-
         while (low < high) {
             boolean flag = false;
 
