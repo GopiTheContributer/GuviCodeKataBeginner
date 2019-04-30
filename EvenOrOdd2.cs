@@ -6,7 +6,7 @@ namespace Guvi_Begi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number: ");
+            Console.WriteLine("Enter no: ");
             int userInput = Convert.ToInt32(Console.ReadLine().Trim());
 
             if (userInput > 0)
