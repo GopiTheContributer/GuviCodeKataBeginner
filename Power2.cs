@@ -13,12 +13,6 @@ namespace guvibegin
 
             if (!string.IsNullOrWhiteSpace(baseNumber) && !string.IsNullOrEmpty(powerNumber))
             {
-                #region "by using predefined math function"
-                //Console.WriteLine("power of the given integer is: {0}", Math.Pow(Convert.ToDouble(userInput1), Convert.ToDouble(userInput2)));
-                //Console.ReadKey();
-                //return;
-                #endregion
-
                 #region "using own logic"
                 int _baseValue = Convert.ToInt32(baseNumber);
                 int _powerValue = Convert.ToInt32(powerNumber);
