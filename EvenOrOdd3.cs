@@ -1,10 +1,10 @@
 using System;
 
-namespace Guvi_Begi
+namespace Guvi
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] ar)
         {
             Console.WriteLine("Enter no: ");
             int userInput = Convert.ToInt32(Console.ReadLine().Trim());
