@@ -9,7 +9,7 @@ namespace Guvi_Beginners
             int loopValue = 1;
             do
             {
-                Console.WriteLine("Hello World");
+                Console.WriteLine("Hello");
                 loopValue++;
             } while (loopValue <= 5);
 
