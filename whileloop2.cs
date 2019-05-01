@@ -4,7 +4,7 @@ namespace g
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int loopValue = 1;
             do
