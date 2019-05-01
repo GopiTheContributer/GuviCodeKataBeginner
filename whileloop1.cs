@@ -9,7 +9,7 @@ namespace g
             int loopValue = 1;
             do
             {
-                Console.WriteLine("Hello");
+                Console.WriteLine("world");
                 loopValue++;
             } while (loopValue <= 5);
 
